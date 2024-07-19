@@ -15,10 +15,11 @@ function App() {
     <>
 <div>
   <Header/>
-      <Dashboard/>
-      <div className="flex-grow " style={{marginLeft:"200px", marginTop:"-250px"}}>
+  <Dashboard/>
+      <div className="flex-grow " style={{marginLeft:"300px", marginTop:"-200px"}}>
     <Routes>
       <Route path="/Category" element={<Category/>}/>
+      
       <Route path="/SubCategory" element={<SubCategory/>}/>
 
       <Route path="/" element={<TablePrint/>}/>
@@ -30,6 +31,7 @@ function App() {
       <Route path="/products" element={<Product/>}/>
 
     </Routes>
+    
       </div>
 
 </div>

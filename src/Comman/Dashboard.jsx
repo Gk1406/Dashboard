@@ -1,15 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 const Dashboard = () => {
   return (
-
     <>
-     
-      <div className="flex ml-0 w-[200px] h-full">
-        
-        <div className="bg-gray-400 h-full w-[200px] text-white  p-4">
+      <div className="w-[200px] bg-slate-500">
+        <div className="h-full w-[200px] text-white p-4">
           <nav className="space-y-4">
             <Link to="/" className="flex items-center space-x-2 px-4 py-2 bg-yellow-300 text-black rounded">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

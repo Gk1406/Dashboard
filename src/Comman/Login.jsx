@@ -7,6 +7,7 @@ const Login = () => {
         <div className="flex items-center justify-center mb-8">
           <img src="logo.png" alt="Logo" className="h-8 mr-2" />
           <h2 className="text-2xl font-bold text-gray-800">TableSprint</h2>
+          
         </div>
         <h3 className="text-xl font-semibold text-gray-600 mb-4">
           Welcome to TableSprint admin
